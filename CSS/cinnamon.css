@@ -1,0 +1,160 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+header {
+  font-family: Georgia;
+  color: #382E28;
+  font-size: 16px;
+  text-align: center;
+}
+.linkheader{
+  font-family: Georgia;
+  color: #382E28;
+  text-align: center;
+  text-decoration: none;
+}
+.topNav {
+  overflow: hidden;
+  background-color: #F2EEEB;
+  font-family: Arial;
+  box-shadow: 0px 2px 4px 0px #888888;
+}
+.topNav a {
+  float: left;
+  font-size: 16px;
+  color: #382E28;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.dropdownNav {
+  float: left;
+  overflow: hidden;
+}
+.dropdownNav .dropNav {
+  font-size: 16px;
+  color: #382E28;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdownNav-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 10%;
+  box-shadow: 2px 2px 4px #888888;
+}
+.dropdownNav-content a {
+  float: none;
+  color: #382E28;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+.dropdownNav:hover .dropdownNav-content {
+  display: block;
+}
+.topNav a:hover, .dropdownNav:hover .dropNav {
+  color: #4BB39B;
+}
+.cinnamon{
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #382E28;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+}
+.ingredients{
+  width: 35%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 4%;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+  float: left;
+}
+.imgcinnamon{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-right: 4%;
+  float: right;
+}
+.instructions{
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #382E28;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+  overflow: auto;
+}
+table{
+  width: 100%;
+}
+thead{
+  color: #DD2872;
+  font-family: Helvetica;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+  line-height: 5em;
+}
+tbody{
+  text-align: left;
+  padding: 1%;
+  font-size: 1em;
+}
+input[type=checkbox]{
+  accent-color: #DD2872;
+}
+h2{
+  letter-spacing: 1px;
+  font-family: Georgia;
+}
+hr{
+  height: 1px;
+  background-color: #382E28;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+h6{
+  color: #DD2872;
+  font-family: Helvetica;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+}
+h6.heart{
+  color: #DD2872;
+  font-family: Helvetica;
+  font-size: 1.0625em;
+  letter-spacing: 2px;
+}
+p{
+  width: 70%;
+  color: #382E28;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  text-align: center;
+  color: #382E27;
+  background-color: #F2EEEB;
+  padding: 14px 16px;
+}

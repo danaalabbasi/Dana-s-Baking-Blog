@@ -1,0 +1,230 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+header {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #382E28;
+  text-align: center;
+}
+.linkheader{
+  font-family: Georgia;
+  color: #382E28;
+  text-align: center;
+  text-decoration: none;
+}
+.topNav {
+  overflow: hidden;
+  background-color: #F2EEEB;
+  font-family: Arial;
+  box-shadow: 0px 2px 4px 0px #888888;
+}
+.topNav a {
+  float: left;
+  font-size: 16px;
+  color: #382E28;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.dropdownNav {
+  float: left;
+  overflow: hidden;
+}
+.dropdownNav .dropNav {
+  font-size: 16px;
+  color: #382E28;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdownNav-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 10%;
+  box-shadow: 2px 2px 4px #888888;
+}
+.dropdownNav-content a {
+  float: none;
+  color: #382E28;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+.dropdownNav:hover .dropdownNav-content {
+  display: block;
+}
+.topNav a:hover, .dropdownNav:hover .dropNav {
+  color: #4BB39B;
+}
+.featured-post{
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+}
+.imgbabka{
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+.imgsourdough{
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+.imgcinnamon{
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+.imgbrownies{
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+table{
+  width: 100%;
+}
+.babka-sub{
+  width: 60%;
+}
+a.linkbtn {
+  font-size: 0.625em;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #DD2872;
+  padding: 14px 25px;
+  display: inline-block;
+}
+a.linkbtn:hover {
+  background-color: #4BB39B;
+}
+a.linktext{
+  color: #382E28;
+  text-decoration: none;
+}
+a.linktext:hover {
+  color: #4BB39B;
+}
+.sourdough{
+  width: 41%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 4%;
+  margin-right: 3%;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+  float: left;
+  position: relative;
+}
+.cinnamon{
+  width: 41%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+  background-color: #F2EEEB;
+  padding: 1%;
+  float: left;
+  position: relative;
+}
+hr{
+  height: 1px;
+  background-color: #382E28;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+h2.h2sub{
+  color:#DD2872;
+  font-family: Georgia;
+}
+h6.h6sub{
+  color: #9B9693;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+}
+h6.h6babka{
+  color: #DD2872;
+  font-family: Helvetica;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+}
+p.psub{
+  color: white;
+  font-family: Helvetica;
+  font-size: 0.8125em;
+}
+p{
+  width: 70%;
+  color: #382E28;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=text], select{
+  background-color: #ffffff;
+  color: #434F57;
+  font-style: italic;
+  font-size: 0.875em;
+  border: 2px solid #382E28;
+  width: 170px;
+  height: 27px;
+  padding: 12px 20px;
+  margin: 4px 0;
+  }
+input[type=submit] {
+  background-color: #DD2872;
+  color: white;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  border: 2px solid #382E28;
+  width: 170px;
+  padding: 14px 20px;
+  margin: 4px 0;
+}
+input[type=submit]:hover{
+  background-color: #4BB39B;
+}
+.subscribe{
+  width: 90%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #382E27;
+  padding: 1%;
+  overflow: auto;
+}
+.footer{
+  text-align: center;
+  color: #382E27;
+  background-color: #F2EEEB;
+  padding: 14px 16px;
+}
